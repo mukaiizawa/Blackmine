@@ -89,7 +89,7 @@ table.list thead th a:hover { color: #000; }
 table.list tr.issue a { color: #333; }
 
 tr.priority-1, table.list tbody tr.priority-1:hover { color: #000; }
-tr.priority-1 { background: #dbdbdb; }
+tr.priority-1 { background: #ececec; }
 
 tr.priority-3, table.list tbody tr.priority-3:hover { color: #000; }
 tr.priority-3 { background: #ffff93; }
