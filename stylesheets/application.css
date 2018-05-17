@@ -88,14 +88,17 @@ table.list thead th a { color: #000; }
 table.list thead th a:hover { color: #000; }
 table.list tr.issue a { color: #333; }
 
+tr.status-4, table.list tbody tr.priority-4:hover { font-weight: bold; }
+tr.status-4 { background: #e0ffff; }
+
 tr.priority-1, table.list tbody tr.priority-1:hover { color: #000; }
 tr.priority-1 { background: #ececec; }
 
 tr.priority-3, table.list tbody tr.priority-3:hover { color: #000; }
-tr.priority-3 { background: #ffff93; }
+tr.priority-3 { background: #ffeaf4; }
 
 tr.priority-4, table.list tbody tr.priority-4:hover { color: #900; }
-tr.priority-4 { background: #ffc4c4; }
+tr.priority-4 { background: #ffe0c0; }
 
 tr.priority-5, table.list tbody tr.priority-5:hover { color: #900; font-weight: bold; }
 tr.priority-5 { background: #ffd4d4; }
