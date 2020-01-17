@@ -104,27 +104,19 @@ div.journal h4 { background-color:#EDF3FE; border-left:3px solid #9FBFFA; paddin
 div.splitcontentleft h2 { background-color:transparent; padding:0; margin:20px 0 5px 0; }
 div.wiki h3, div.wiki h4 { font-weight:bold; }
 h1 { font-size:24px; font-weight:normal; margin:0pt 0pt 0pt 0.25em; padding:0pt 0pt 10px; text-align:left; }
-h1, h2, h3, h4 { font-family:"Lucida Grande",arial,sans-serif; }
 h2 { background-color:#edf3fe; margin:-6px -10px 10px; padding:10px 20px; font-size:14px; color:#000; }
-h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom:0px;}
+h2, h3, h4 { border-bottom:0px;}
 h3, h4 { font-weight:normal; }
 
-.wiki h1 {
+.wiki h1, .wiki h2 {
   color:#000;
-  font-size:14px;
-  font-weight:bold;
   margin:0;
   padding:0;
+  padding-left:0.1em;
+  border-left:3px solid #9FBFFA;
 }
-.wiki h1:before { content:"#"; }
-.wiki h2 {
-  color:#000;
-  font-weight:bold;
-  margin:0;
-  padding:0;
-}
-.wiki h2:before { content:"##"; }
-
+.wiki h1 { font-size:1.4em; }
+.wiki h2 { font-size:1.2em; }
 
 table.list { border:none; }
 table.list th { background-color:#fff; }
